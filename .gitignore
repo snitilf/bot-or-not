@@ -31,9 +31,6 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
-# Practice data 
-data/
-
 # Detection output files (generated at runtime)
 *.detections.*.txt
 *.combined.json

@@ -1,0 +1,44 @@
+# Environment & secrets
+.env
+.env.*
+*.key
+credentials.*
+
+# Temporary & intermediate files
+.tmp/
+tmp/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Practice data 
+data/
+
+# Detection output files (generated at runtime)
+*.detections.*.txt
+*.combined.json
+
+# Model artifacts & large files
+*.h5
+*.model
+*.bin

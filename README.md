@@ -62,6 +62,16 @@ challenge score:
 
 because false positives are costly, i tuned the system to be precision-first and conservative on uncertain cases.
 
+## final evaluation datasets (ds34 english / ds35 french)
+i ran the final pipeline on the released evaluation datasets using:
+
+`python3 src/run_final.py data/dataset.posts&users.34.json data/dataset.posts&users.35.json --team localhost`
+
+generated outputs:
+
+- localhost.detections.en.txt: 74 detected users out of 438 total users (16.9%)
+- localhost.detections.fr.txt: 35 detected users out of 283 total users (12.4%)
+
 ## files evaluators should inspect
 - `src/features.py`
 - `src/en_detector.py`

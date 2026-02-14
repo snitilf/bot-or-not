@@ -71,3 +71,8 @@ because false positives are costly, i tuned the system to be precision-first and
 - `src/stress_eval_en.py`
 - `src/stress_eval_fr.py`
 - `src/scorer.py`
+
+## team
+team name: localhost
+
+members: just me 

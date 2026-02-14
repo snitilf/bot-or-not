@@ -74,6 +74,8 @@ generated outputs:
 - localhost.detections.en.txt: 74 detected users out of 438 total users (16.9%)
 - localhost.detections.fr.txt: 35 detected users out of 283 total users (12.4%)
 
+for context, practice bot prevalence was ~23.6% (en) and ~16.0% (fr)
+
 ## files evaluators should inspect
 - `src/features.py`
 - `src/en_detector.py`

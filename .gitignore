@@ -32,7 +32,6 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # Detection output files (generated at runtime)
-*.detections.*.txt
 *.combined.json
 
 # Model artifacts & large files

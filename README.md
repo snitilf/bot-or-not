@@ -6,14 +6,16 @@ from the repo root:
 
 ```bash
 pip install -r requirements.txt
-python3 src/run_final.py <english_dataset.json> <french_dataset.json> --team localhost
+python3 src/run_final.py data/dataset.posts&users.34.json data/dataset.posts&users.35.json --team localhost
 ```
 
 this creates:
 - `localhost.detections.en.txt`
 - `localhost.detections.fr.txt`
+  
+each detection file contains one user id per line
 
-runtime is usually about 15 seconds.
+runtime is usually about 18 seconds
 
 ## what i implemented
 the detector is a hybrid pipeline with rules + machine learning.
